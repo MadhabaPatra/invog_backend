@@ -1,0 +1,44 @@
+{
+  "User": {
+    "full_name": {
+      "string": {}
+    },
+    "address": {
+      "string": [
+         "Polasara",
+         "Berhampur",
+         "Chhatrapur",
+        "Aska",
+        "Buguda"
+       ]
+    },
+    "email_address": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "phone": {
+       "regexp": "+91 [0-9]{10}"
+    },
+    "gender": {
+       "string": [
+         "Male",
+         "Female",
+         "Can't say"
+       ]
+    },
+    "avatar": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    },
+    "created_at": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    "is_active": {
+      "boolean": {}
+    },
+    "is_deleted": {
+      "boolean": {}
+    }
+  }
+}
